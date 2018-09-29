@@ -56,6 +56,7 @@
     cell.foodType.text = [foodsItem objectAtIndex:indexPath.row];
     cell.foodPrice.text = [foodsPrice objectAtIndex:indexPath.row];
     cell.foodImage.image = [UIImage imageNamed:[foodsImage objectAtIndex:indexPath.row]];
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
     return cell;
 }
